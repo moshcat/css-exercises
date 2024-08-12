@@ -18,8 +18,31 @@ body {
 .modal {
   background: white;
   width: 480px;
+  display: flex; 
   border-radius: 10px;
+  gap: 12px;
+  padding: 12px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+.modal__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.header {
+  font-weight: bold;
 }
 
 .icon {
@@ -32,6 +55,7 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   justify-content: center;
 }
 
