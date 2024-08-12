@@ -32,7 +32,7 @@ img {
   left: 0;
   right: 0;
   height: 52px;
-  display: flex;
+  display: flex;  
   align-items: center;
   justify-content: center;
   background: #eee;
