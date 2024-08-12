@@ -20,15 +20,15 @@ body {
   width: 480px;
   display: flex; 
   border-radius: 10px;
-  gap: 12px;
-  padding: 12px;
+  gap: 16px;
+  padding: 16px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
-.modal__wrapper {
+/* .modal__wrapper {
   display: flex;
   flex-direction: column;
   gap: 12px;
-}
+} */
 
 
 .title {
@@ -38,11 +38,17 @@ body {
 }
 
 .text {
-  font-size: 16px;
+  margin-bottom: 16px;
 }
 
 .header {
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 18px;
+
 }
 
 .icon {
